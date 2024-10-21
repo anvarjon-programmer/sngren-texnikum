@@ -1750,28 +1750,27 @@ a img.aligncenter {
 .message-box p {
     margin-bottom: 20px;
     height: 80px;
-    overflow-y: auto; /* Allows scrolling */
-    scrollbar-width: thin; /* For Firefox: thin scrollbar */
-    scrollbar-color: #888 #f1f1f1; /* For Firefox: scroll thumb and track colors */
+    overflow-y: auto; 
+    scrollbar-width: thin; 
+    scrollbar-color: #888 #f1f1f1; 
 }
 
-/* Webkit browsers (Chrome, Safari, Edge) */
 .message-box p::-webkit-scrollbar {
-    width: 8px; /* Set scrollbar width */
+    width: 8px; 
 }
 
 .message-box p::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Track color */
+    background: #f1f1f1; 
 }
 
 .message-box p::-webkit-scrollbar-thumb {
-    background-color: #888; /* Scroll thumb color */
-    border-radius: 10px; /* Rounded corners */
-    border: 2px solid #f1f1f1; /* Adds space around the thumb */
+    background-color: #888; 
+    border-radius: 10px; 
+    border: 2px solid #f1f1f1;
 }
 
 .message-box p::-webkit-scrollbar-thumb:hover {
-    background-color: #555; /* Darker on hover */
+    background-color: #555;
 }
 
 

@@ -50,7 +50,7 @@ function populateSlider(sliders) {
                     <div class="row">
                         <div class="col-md-12 col-sm-12 text-left">
                             <div class="big-tagline">
-                                <h2 class="jisa">${slider.title[currentLang] || slider.title.uz}</h2>
+                                 <h2 class="jisa">${slider.title[currentLang] || slider.title.uz}</h2>
                                 <p class="lead dsas">${slider.description[currentLang] || slider.description.uz}</p>
                             </div>
                         </div>
